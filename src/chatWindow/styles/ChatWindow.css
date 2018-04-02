@@ -1,0 +1,52 @@
+.chat-window-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.chat-window-message-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 500px;
+    padding: 15px;
+}
+
+.chat-window-message-received {
+    align-self: flex-start;
+}
+
+.chat-window-message-sent {
+    align-self: flex-end;
+}
+
+.chat-window-typing {
+    color: #888;
+    font-size: 12px;
+}
+
+.chat-window-input-container {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+.chat-window-input {
+    height: 20px;
+    border: 1px gray solid;
+    padding: 10px;
+    flex: 5;
+}
+
+.chat-window-submit {
+    height: 43;
+    flex: 1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-left: none;
+}
